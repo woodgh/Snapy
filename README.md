@@ -2,6 +2,8 @@
 
 A screenshot capture and beautification tool for Windows.
 
+![image](https://github.com/woodgh/Snapy/blob/main/snapy.png)
+
 ## Features
 
 - **Capture Modes**: Region selection, active window, fullscreen
@@ -10,19 +12,6 @@ A screenshot capture and beautification tool for Windows.
 - **Export**: Copy to clipboard, save to file, auto-save
 - **Global Hotkeys**: Configurable shortcuts for each capture mode
 - **Dark Mode** support
-
-## Tech Stack
-
-- C++20, Win32 API
-- Direct2D (Rendering)
-- WIC (Image encoding)
-- WndUI Framework
-
-## Build
-
-```bash
-cmake -B Build && cmake --build Build --config Release
-```
 
 ## License
 
